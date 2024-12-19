@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOUSING ASSEMBLY </title>
+     <link rel="stylesheet" href="index7.css">
+     <script src="index7.js"></script>
+</head>
+<body style="text-align: center;">
+<img src="img/pentecost logo.gif" style="text-align: center ;">    
+<h1 style="text-align: center;">HOUSING ASSEMBLY</h1>
+<h2>Housing assembly is a branch under fiave district.It is the second oldest and largest
+    assembly under the fiave district.It has a population of about
+    two hundred members. It is located at Ho-Housing. The presiding elder of housing is Elder Zartey.
+    He took over from Elder Stephen  Novihoho who has been transfered to central to serve there.
+  Elder Philip Mamatah who is also the general secrecaty of the fiave distrit fellowship at Housing where he was
+once a presiding eder. Elder Dagadu is also another elder that supports the presiding elder in the 
+day-to-day affairs the branch. Church service commence on Sundays from 8:30am to 11:30am. Other church activities that goes 
+on during week days are normally announced to the congregation on sundays during service.  </h2>
+    
+        <marquee>
+            <img src="img/a.jpg" style="height: 200px; width: 300px;">
+            <img src="img/b.jpg" style="height: 200px; width: 300px;">
+            <img src="img/c.jpg" style="height: 200px; width: 300px;">
+            <img src="img/d.jpg" style="height: 200px; width: 300px;">
+            <img src="img/e.jpg" style="height: 200px; width: 300px;">
+            <img src="img/f.jpg" style="height: 200px; width: 300px;">
+            <img src="img/wizzy.jpg" style="height: 200px; width: 300px;">
+            <img src="img/g.jpg" style="height:200px; width:300px;">
+        </marquee>
+        <a href="index8.html"><h1><button style="background-color: red;" onclick="confirmExit()">Exit Current Page </button></h1> </a>
+        <button onclick="changeBackground()">Change Background Color</button>
+        <button onclick="changeTextColor()">Change Text Color</button>
+        <script>
+            function confirmExit() {
+              if (confirm("Are you sure you want to exit?")) {
+                window.location.href = "project.html";
+              } else {}}
+            function changeBackground() {
+              document.body.style.backgroundColor = getRandomColor();}
+            function changeTextColor() {
+              document.body.style.color = getRandomColor(); }
+            function getRandomColor() {
+              var letters = '0123456789ABCDEF';
+              var color = '#';
+              for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];}
+              return color;}
+          </script> 
+</body>
+</html>

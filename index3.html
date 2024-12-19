@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SYCHAR ASSEMBLY </title>
+  <link rel="stylesheet" href="index3.css">
+  <script src="index3.js"></script>
+</head>
+<body style="text-align: center;">
+  <img src="img/pentecost logo.gif" style="text-align: center ;">
+  <h1 style="text-align: center;">SYCHAR ASSEMBLY</h1>
+  <h2>Sychar assembly is a branch under fiave district.It is the third largest assembly 
+    under the fiave district.It has a population of about two hundred members. It is located at Ho-Some down.
+    The presiding elder of Sychar assembly is Elder Eugene Tordzro who was the past general secrertary of the fiave district 
+    and he is being supported by Elder Emmanuel Darko and some other elders of the church. 
+They normally fellowship on every Sundays from 8:30 am to 11:30 am. Elder Emmanuel Darko is one of the logest and oldest
+serving elders of the church.</h2>
+  <marquee>
+    <img src="img/SYCHAR1.jpg" style="height:200px; width:300px;">
+    <img src="img/SYCHAR2.jpg" style="height:200px; width:300px;">
+    <img src="img/SYCHAR3.jpg" style="height:200px; width:300px;">
+    <img src="img/SYCHAR4.jpg" style="height:200px; width:300px;">
+    <img src="img/SYCHAR5.jpg" style="height:200px; width:300px;">
+    <img src="img/SYCHAR6.jpg" style="height:200px; width:300px;">
+    <img src="img/SYCHAR7.jpg" style="height:200px; width:300px;">
+    <img src="img/SYCHAR8.jpg" style="height:200px; width:300px;">
+    <img src="img/SYCHAR9.jpg" style="height:200px; width:300px;">
+    <img src="img/SYCHAR10.jpg" style="height:200px; width:300px;">
+    <img src="img/SYCHAR11.jpg" style="height:200px; width:300px;">
+    <img src="img/m15.jpg" style="height: 200px; width: 300px;">
+    <img src="img/TORDZRO.jpg" style="height: 200px; width: 300px;">
+    <img src="img/SINGERS.jpg" style="height: 200px; width: 300px;">
+    <img src="img/m17.jpg" style="height: 200px; width: 300px;">
+    <img src="img/m7.jpg" style="height: 200px; width: 300px;">
+    <img src="img/kebe.jpg" style="height: 200px; width: 300px;">
+    <img src="img/wizzy.jpg" style="height: 200px; width: 300px;">
+    <img src="img/OSOFO 1.jpg" style="height:200px; width:300px;">
+  </marquee>
+  <a href="index8.html"><h1><button style="background-color: red;" onclick="confirmExit()">Exit Current Page </button></h1> </a>
+  <button onclick="changeBackground()">Change Background Color</button>
+  <button onclick="changeTextColor()">Change Text Color</button>
+
+  <script>
+    function confirmExit() {
+      if (confirm("Are you sure you want to exit?")) {
+        window.location.href = "project.html";
+      } else {}
+    }
+    function changeBackground() {
+      document.body.style.backgroundColor = getRandomColor();
+    }
+
+    function changeTextColor() {
+      document.body.style.color = getRandomColor(); }
+
+    function getRandomColor() {
+      var letters = '0123456789ABCDEF';
+      var color = '#';
+      for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+      }
+      return color;
+    }
+  </script>
+</body>
+</html>

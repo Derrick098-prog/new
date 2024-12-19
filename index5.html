@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRACE ASSEMBLY</title>
+    <link rel="stylesheet" href="index5.css">
+    <script src="index5.js"></script>
+</head>
+<body style="text-align: center;">
+  <img src="img/pentecost logo.gif" style="text-align: center ;">
+   
+    <br><h1 style="text-align: center;">GRACE ASSEMBLY</h1><br>
+    <h2>Grace assembly is the most recently formed assembly in the fiave district.
+        It is  the assembly where French and English are being spoken for the benefit of 
+        the members who are from the Francophone countries and some local members who are interested in 
+        learning French. Its has a population of about
+        hundred and it is being presided over by Elder Adolf Lemtha popularly known as Soldier.
+        He is being assisted by elder wisdom Adegah. The youngest Elder in the Fiave district.  </h2>
+ <marquee>
+    <img src="img/GRACE1.jpg" style="height: 200px; width: 300px;">
+    <img src="img/GRACE2.jpg" style="height: 200px; width: 300px;">
+    <img src="img/GRACE3.jpg" style="height: 200px; width: 300px;">
+    <img src="img/GRACE4.jpg" style="height: 200px; width: 300px;">
+    <img src="img/GRACE5.jpg" style="height: 200px; width: 300px;">
+    <img src="img/GRACE6.jpg" style="height: 200px; width: 300px;">
+    <img src="img/wizzy.jpg" style="height: 200px; width: 300px;">
+    <img src="img/GRACE7.jpg" style="height:200px; width:300px;">
+    <img src="img/GRACE8.jpg" style="height:200px; width:300px;">
+    <img src="img/GRACE9.jpg" style="height:200px; width:300px;">
+    <img src="img/GRACE10.jpg" style="height:200px; width:300px;">
+    <img src="img/GRACE11.jpg" style="height:200px; width:300px;">
+    <img src="img/GRACE12.jpg" style="height:200px; width:300px;">
+    <img src="img/GRACE13.jpg" style="height:200px; width:300px;">
+    <img src="img/GRACE14.jpg" style="height:200px; width:300px;">
+    <img src="img/GRACE15.jpg" style="height:200px; width:300px;">
+    <img src="img/GRACE16.jpg" style="height:200px; width:300px;">
+</marquee>    
+<a href="index8.html"><h1><button style="background-color: red;" onclick="confirmExit()">Exit Current Page </button></h1> </a>
+<button onclick="changeBackground()">Change Background Color</button>
+<button onclick="changeTextColor()">Change Text Color</button>
+<script>
+    function confirmExit() {
+      if (confirm("Are you sure you want to exit?")) {
+        window.location.href = "project.html";
+      }
+       else {}
+    }
+    function changeBackground() {
+      document.body.style.backgroundColor = getRandomColor();}
+    function changeTextColor() {
+      document.body.style.color = getRandomColor(); }
+    function getRandomColor() {
+      var letters = '0123456789ABCDEF';
+      var color = '#';
+      for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];}
+      return color;}
+  </script>
+</body>
+</html>
